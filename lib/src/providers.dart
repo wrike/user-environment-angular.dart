@@ -1,5 +1,5 @@
 import 'package:angular2/di.dart';
-import 'package:user_environment/environment.dart';
+import 'package:user_environment/user_environment.dart';
 
 @Injectable()
 UserEnvironment injectableUserEnvironmentFactory(

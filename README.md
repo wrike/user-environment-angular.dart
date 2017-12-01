@@ -6,7 +6,7 @@ Differentiated browsers are: `IE`, `Edge`, `Chrome`, `Safari`, `Gecko`, `Opera`,
 ### Usage
 ```dart
 import 'package:angular2/angular2.dart';
-import 'package:user_environment/environment_ng.dart';
+import 'package:user_environment_angular/user_environment.dart';
 
 @Directive(
   selector: 'my-directive',

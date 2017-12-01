@@ -17,7 +17,9 @@ dev_dependencies:
 
 dependency_overrides:
   user_environment:
-    git: 'git@github.com:wrike/user-environment.dart.git'
+    git:
+      url: 'git@github.com:wrike/user-environment.dart.git'
+      ref: 'deploy'
 
 transformers:
 - angular2:
