@@ -2,6 +2,7 @@ name: user_environment_angular
 version: 1.0.0
 description: 'Angular providers for user browser environment detection'
 homepage: http://www.github.com/wrike/user-environment-angular.dart
+publish_to: http://pub.dartlang.org
 authors:
 - Oleg Bezuglov <oleg.bezuglov@team.wrike.com>
 
@@ -14,12 +15,14 @@ dependencies:
 
 dev_dependencies:
   analyzer: ^0.29.2
+  dart_dev: any
+  dart_style: any
 
-dependency_overrides:
-  user_environment:
-    git:
-      url: 'git@github.com:wrike/user-environment.dart.git'
-      ref: 'deploy'
+#dependency_overrides:
+#  user_environment:
+#    git:
+#      url: 'git@github.com:wrike/user-environment.dart.git'
+#      ref: 'deploy'
 
 transformers:
 - angular2:

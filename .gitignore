@@ -2,7 +2,8 @@
 .DS_Store
 .packages
 .pub/
-packages
+build
+**/packages
 pubspec.lock
 
 # JetBrains IDEs
