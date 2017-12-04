@@ -6,7 +6,6 @@ dart:
 
 dart_task:
 - analyzer: --strong --fatal-warnings
-  test: false
 
 cache:
   directories:
