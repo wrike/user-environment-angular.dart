@@ -26,6 +26,8 @@ dev_dependencies:
 #      ref: 'deploy'
 
 transformers:
+- test/pub_serve:
+    $include: test/**_test{.*,}.dart
 - angular2:
     resolved_identifiers:
       UserEnvironment: 'package:user_environment/user_environment.dart'
