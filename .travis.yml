@@ -6,8 +6,8 @@ dart:
 
 dart_task:
 - analyzer: --strong --fatal-warnings
-- test:
-    script: echo "Ok"
+- test: false
+
 
 cache:
   directories:
