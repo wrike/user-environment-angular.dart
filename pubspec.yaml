@@ -15,7 +15,7 @@ dependencies:
 
 dev_dependencies:
   analyzer: ^0.29.2
-  test: ^0.12.24+1
+#  test: ^0.12.24+1
   dart_dev: any
   dart_style: any
 
@@ -26,8 +26,8 @@ dev_dependencies:
 #      ref: 'deploy'
 
 transformers:
-- test/pub_serve:
-    $include: test/**_test{.*,}.dart
+#- test/pub_serve:
+#    $include: test/**_test{.*,}.dart
 - angular2:
     resolved_identifiers:
       UserEnvironment: 'package:user_environment/user_environment.dart'
